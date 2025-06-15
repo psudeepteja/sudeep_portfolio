@@ -9,7 +9,7 @@ export default function About() {
             </div>
         <div className="grid md:grid-cols-2 justify-center gap-4 mt-6 md:mt-12">
             <div className="flex justify-center">
-                <Image src='/sudeep.jpg' height={280} width={240} alt="image" />
+                <img src='/sudeep_3.jpeg' height="240" width="340" alt="image" />
                 </div>
             <div className="text-center">
                 <p>{data.aboutMeText1}</p>
