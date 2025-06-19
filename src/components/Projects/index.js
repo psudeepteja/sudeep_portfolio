@@ -6,8 +6,7 @@ export default function Projects() {
         {title: "ShowTime App", url:"https://show-time-app.vercel.app/movies/nellore", img:"/ShowTime.png"},
         {title: "Russell And Bromley", url:"https://www.russellandbromley.co.uk", img:"/Russell_and_Bromley_UK.png"},
         {title: "Liverpool Suburbia", url:"https://www.suburbia.com.mx/tienda/home", img:"/Suburbia.jpg"},
-        {title: "ECart App", url:"https://e-cart-app-beige.vercel.app", img:"/Ecart1.png"},
-
+        {title: "ECart App", url:"https://e-cart-app-beige.vercel.app", img:"/ECart1.png"},
         {title: "Recipie App", url:"https://vgts-task-green.vercel.app", img:"/Recipie.png"},
         // {title: "Bill Buddy App", url:"https://bill-buddy-app.vercel.app"},
 
