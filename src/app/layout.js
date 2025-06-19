@@ -1,6 +1,7 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
+import ScrollToTop from "@/components/ScrollToTop";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -13,9 +14,10 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div className="container mx-auto p-4 md:px-20 md:py-4">
+        <div className="container mx-auto px-4">
         <Header />
         {children}
+        <ScrollToTop />
         </div>
         </body>
     </html>
