@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <>
       {sectionData.map((item,index)=>(
-        <div key={index} id={item?.link} className={index % 2 ===0 ? 'bg-gray-50' : "" }>
+        <div key={index} id={item?.link} className={index % 2 ===0 ? 'bg-gray-50 dark:bg-gray-900' : "" }>
         {item.component}
       </div> 
       ))}

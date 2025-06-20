@@ -2,6 +2,7 @@
 import React, { useState } from 'react'
 import { MaterialSymbolsMenu } from '@/icons/MenuIcon'
 import { GgClose } from '@/icons/close'
+import Theme from '../Theme'
 
 export default function NavBar() {
     const [isOpen, setIsOpen] = useState(false)
@@ -12,21 +13,24 @@ export default function NavBar() {
 
     return (
         <>
-            <div className='md:hidden flex justify-end' onClick={handleClick}>
-                {!isOpen && (
+            <div className='md:hidden flex justify-end items-center' onClick={handleClick}>
+                <Theme />
+                {!isOpen ? (
                     <MaterialSymbolsMenu />
+                ):(
+              <div className="flex justify-end" onClick={handleClick}><GgClose /></div>
                 )}
             </div>
             {isOpen && (
-                <div className='md:hidden flex justify-end flex-col absolute top-2 right-4 my-2 bg-white px-4'>
-                    <div className="flex justify-end m-2" onClick={handleClick}><GgClose /></div>
+                <div className='md:hidden flex justify-end flex-col absolute top-12 right-0 w-full my-2 bg-white dark:bg-gray-800 px-4 py-2 shadow-xl'>
                     <a href="#about" >About</a>
                     <a href="#skills" >Skills</a>
                     <a href="#projects" >Projects</a>
                     <a href="#contact" >Contact</a>
                 </div>
             )}
-            <div className='hidden md:flex md:justify-end gap-4'>
+            <div className='hidden md:flex md:justify-end items-center gap-4'>
+                <Theme />
                 <a href="#about" className='hidden md:flex'>About</a>
                 <a href="#skills" className='hidden md:flex'>Skills</a>
                  <a href="#projects" className='hidden md:flex'>Projects</a>

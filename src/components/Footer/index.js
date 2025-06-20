@@ -20,7 +20,7 @@ export default function Footer() {
                     <div>Email: pandipatitejs@gmail.com</div>
                 </div>
             </div>
-            <div className='text-center text-sm text-gray-700 pb-4'>Copyright © 2025 Sudeep Teja.</div>
+            <div className='text-center text-sm text-gray-700 pb-4 dark:text-[#fff]'>Copyright © 2025 Sudeep Teja.</div>
         </>
     )
 }
