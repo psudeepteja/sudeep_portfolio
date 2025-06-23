@@ -3,6 +3,7 @@ import React, { useState } from 'react'
 import { MaterialSymbolsMenu } from '@/icons/MenuIcon'
 import { GgClose } from '@/icons/close'
 import Theme from '../Theme'
+import { navLinks } from '@/constant/navLinks'
 
 export default function NavBar() {
     const [isOpen, setIsOpen] = useState(false)
@@ -10,13 +11,6 @@ export default function NavBar() {
     const handleClick = () => {
         setIsOpen(!isOpen)
     }
-
-    const navLinks = [
-        { name: "About", link: "#about" },
-        { name: "Skills", link: "#skills" },
-        { name: "Projects", link: "#projects" },
-        { name: "Contact", link: "#contact" },
-    ]
 
     return (
         <>
