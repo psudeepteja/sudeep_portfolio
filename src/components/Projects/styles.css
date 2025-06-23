@@ -1,0 +1,10 @@
+.slick-track{
+display: flex;
+gap: 20px;
+}
+.slick-arrow{
+    display: none !important;
+}
+.slick-slider{
+    overflow: hidden !important;
+}
