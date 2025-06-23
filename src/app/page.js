@@ -12,6 +12,7 @@ export default function Home() {
     {link:"projects", component: <Projects /> },
     {link:"contact", component: <Footer /> },
   ]
+  
   return (
     <>
       {sectionData.map((item,index)=>(

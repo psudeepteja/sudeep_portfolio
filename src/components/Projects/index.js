@@ -54,7 +54,7 @@ export default function Projects() {
               href={item.url}
               target="_blank"
               rel="noopener noreferrer"
-              className="block bg-white dark:bg-gray-950 rounded-xl shadow-lg inset-shadow-[#FF6464] hover:shadow-lg transition-transform transform hover:scale-105 overflow-hidden border dark:border-gray-900"
+              className={`block rounded-xl shadow-md inset-shadow-[#FF6464] hover:shadow-lg transition-transform transform hover:scale-105 overflow-hidden border dark:border-gray-900 ${index % 2 ===0 ? 'bg-gray-50 dark:bg-gray-900' : ""}`}
             >
               {/* <img
               src={item.img}
