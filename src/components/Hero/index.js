@@ -18,6 +18,7 @@ export default function Hero() {
                 <p className="text-sm md:text-lg"> {t("profileDescription")}</p>
                 <p className="flex gap-1"><span><MaterialSymbolsLocationOn /></span> <span>Nellore, India</span></p>
                 <p className="flex gap-1"><span><PhDotFill /></span> <span>Available for new projects</span></p>
+                <button className="bg-[#FF6464] py-2 w-44 rounded-lg text-[#fff]">Download Resume</button>
             </div>
         </div>
     )
