@@ -32,14 +32,15 @@ export default function Theme() {
   };
 
   return (
-    <div className="pr-2 md:pr-0 cursor-pointer">
+    <>
       <img
         src={theme === 'light' ? '/dark.png' : '/light.png'}
         alt="theme"
         height={"20px"}
         width="20px"
+        style={{maxWidth:"none"}}
         onClick={toggleTheme}
       />
-    </div>
+    </>
   );
 }

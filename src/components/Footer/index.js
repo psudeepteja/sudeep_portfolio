@@ -11,7 +11,7 @@ export default function Footer() {
                 </div>
                 <div className='basis-1/3'>
                     {navLinks.map((item, idx) => (
-                        <a key={idx} href={item.link} className='block' >{item.name}</a>
+                        <a key={idx} href={item.link} className='block'>{item.name}</a>
                     ))}
                 </div>
                 <div>

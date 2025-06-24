@@ -1,0 +1,14 @@
+{
+  "name": "Pandipati Sudeep Teja",
+  "prefix": "Hi, I'm",
+  "profileDescription": "I am a web developer specializing in front-end technologies, particularly HTML, CSS, JavaScript, React, Next.js, and Tailwind CSS. I have a proven track record of building responsive and user-friendly web applications. My key strengths include clean code practices, performance optimization, and a keen eye for design.",
+  "aboutMeTitle":"About Me",
+  "aboutMeText1": "I'm a web developer with a passion for creating responsive and user-friendly websites and web applications. I specialize in using modern technologies like React, Next.js, and Tailwind CSS to bring ideas to life on the web.",
+  "aboutMeText2": "I prioritize user experience, ensuring websites are intuitive and accessible. Proficient in HTML, CSS, JavaScript, React, Next.js, and Tailwind CSS. Committed to staying up-to-date with the latest industry trends and technologies.",
+  "aboutMeText3": "Outside of coding, I enjoy exploring new technologies, and reading about advancements in web development. I am always looking for new challenges and opportunities to grow my skills and contribute to exciting projects.",
+  "skillsTitle":"Skills",
+  "skillsDes": "The skills, tools and technologies I am really good at:",
+  "projectTitle": "Projects",
+  "projectDes": "Here are some of the projects I’ve worked on, showcasing my skills in frontend development, and building responsive, user-centric web applications. Each project highlights a different aspect of my technical abilities, from integrating APIs to implementing scalable component-based architectures."
+
+}
