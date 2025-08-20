@@ -16,7 +16,7 @@ export default function About() {
                 </div>
                 <div className="text-center">
                     {/* <p>{t("aboutMeText1")}</p> */}
-                    <p>I'm a web developer with a passion for creating responsive and user-friendly websites and web applications. I specialize in using modern technologies like React, Next.js, and Tailwind CSS to bring ideas to life on the web.</p>
+                    <p>I am a web developer with a passion for creating responsive and user-friendly websites and web applications. I specialize in using modern technologies like React, Next.js, and Tailwind CSS to bring ideas to life on the web.</p>
                     <br />
                     <p>I prioritize user experience, ensuring websites are intuitive and accessible. Proficient in HTML, CSS, JavaScript, React, Next.js, and Tailwind CSS. Committed to staying up-to-date with the latest industry trends and technologies.</p>
                     <br />
