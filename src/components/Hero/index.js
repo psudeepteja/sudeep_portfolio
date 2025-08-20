@@ -3,10 +3,10 @@ import Image from "next/image";
 import { data } from '@/constant/text'
 import { MaterialSymbolsLocationOn } from "@/icons/Location";
 import { PhDotFill } from "@/icons/dot";
-import { useTranslation } from "react-i18next";
+// import { useTranslation } from "react-i18next";
 
 export default function Hero() {
-    const { t } = useTranslation();
+    // const { t } = useTranslation();
 
     return (
         <div className="px-4 py-6 flex flex-col md:flex-row-reverse gap-8 md:items-center">
@@ -14,8 +14,8 @@ export default function Hero() {
                 <img src='/sudeep_2.jpeg' height="280" width="400" alt="image" />
             </div>
             <div className="md:w-3/4 flex flex-col gap-4">
-                <p className="text-xl md:text-2xl font-bold text-center md:text-left">{t("prefix")} {data.name}</p>
-                <p className="text-sm md:text-lg"> {t("profileDescription")}</p>
+                <p className="text-xl md:text-2xl font-bold text-center md:text-left">Hi, I'm Pandipati Sudeep Teja</p>
+                <p className="text-sm md:text-lg"> I am a Full stack web developer specializing in front-end technologies, particularly HTML, CSS, JavaScript, React, Next.js, and Tailwind CSS. I have a proven track record of building responsive and user-friendly web applications. My key strengths include clean code practices, performance optimization, and a keen eye for design.</p>
                 <p className="flex gap-1"><span><MaterialSymbolsLocationOn /></span> <span>Nellore, India</span></p>
                 <p className="flex gap-1"><span><PhDotFill /></span> <span>Available for new projects</span></p>
                 <button className="bg-[#FF6464] py-2 w-44 rounded-lg text-[#fff]">Download Resume</button>

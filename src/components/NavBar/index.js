@@ -4,12 +4,12 @@ import { MaterialSymbolsMenu } from '@/icons/MenuIcon'
 import { GgClose } from '@/icons/close'
 import Theme from '../Theme'
 import { navLinks } from '@/constant/navLinks'
-import { useTranslation } from "react-i18next";
-import "../../transulation/i18n"; // import i18n config
+// import { useTranslation } from "react-i18next";
+// import "../../transulation/i18n"; // import i18n config
 
 export default function NavBar() {
     const [isOpen, setIsOpen] = useState(false);
-    const { t, i18n } = useTranslation();
+    // const { t, i18n } = useTranslation();
     const [hasMounted, setHasMounted] = useState(false)
 
     const changeLanguage = (lang) => {
@@ -30,14 +30,14 @@ export default function NavBar() {
                 <div>
                     <Theme />
                 </div>
-                <div>
+                {/* <div>
                     {hasMounted && i18n.language === 'en' && (
                         <button onClick={() => changeLanguage("te")}>తెలుగు</button>
                     )}
                     {hasMounted && i18n.language === 'te' && (
                         <button onClick={() => changeLanguage('en')}>English</button>
                     )}
-                </div>
+                </div> */}
                 {!isOpen ? (
                     <div onClick={handleClick}>
                         <MaterialSymbolsMenu />
@@ -53,7 +53,7 @@ export default function NavBar() {
                     ))}
                 </div>
             )}
-            <div className='hidden md:flex md:justify-end items-center gap-4'>
+            {/* <div className='hidden md:flex md:justify-end items-center gap-4'>
                 <Theme />
                 {hasMounted && i18n.language === 'en' && (
                     <button onClick={() => changeLanguage("te")}>తెలుగు</button>
@@ -64,7 +64,7 @@ export default function NavBar() {
                 {navLinks.map((item, idx) => (
                     <a key={idx} href={item.link} className='hidden md:flex'>{item.name}</a>
                 ))}
-            </div>
+            </div> */}
         </>
     )
 }

@@ -3,7 +3,7 @@
 import React from "react";
 import Slider from "react-slick";
 import './styles.css'
-import { useTranslation } from "react-i18next";
+// import { useTranslation } from "react-i18next";
 
 export default function Projects() {
   const webPages = [
@@ -14,7 +14,7 @@ export default function Projects() {
     { title: "Recipie App", url: "https://vgts-task-green.vercel.app", img: "/Recipie.png" },
     // {title: "Bill Buddy App", url:"https://bill-buddy-app.vercel.app"},
   ]
-  const {t}= useTranslation();
+  // const {t}= useTranslation();
 
   const settings = {
     infinite: true,
@@ -43,10 +43,10 @@ export default function Projects() {
   return (
     <div className="px-4 py-6 md:px-4 md:py-16">
       <div className='text-center pb-8'>
-        <span className="bg-[#FF6464] text-[#fff] px-4 py-1 inline rounded-xl">{t("projectTitle")}</span>
+        <span className="bg-[#FF6464] text-[#fff] px-4 py-1 inline rounded-xl">Projects</span>
       </div>
       <div>
-        <p className="pt-2 pb-6">{t("projectDes")}</p>
+        <p className="pt-2 pb-6">Here are some of the projects I’ve worked on, showcasing my skills in frontend development, and building responsive, user-centric web applications. Each project highlights a different aspect of my technical abilities, from integrating APIs to implementing scalable component-based architectures.</p>
       </div>
       <div className="slider-container">
         <Slider {...settings}>
