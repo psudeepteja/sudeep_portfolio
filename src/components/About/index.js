@@ -5,7 +5,6 @@ import { useTranslation } from "react-i18next";
 
 export default function About() {
     const { t } = useTranslation();
-
     return (
         <div className="px-4 py-6 md:px-4 md:py-16 ">
             <div className='text-center '>
