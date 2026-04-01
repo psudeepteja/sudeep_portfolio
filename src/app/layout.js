@@ -14,12 +14,14 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className="dark:bg-gray-950 ">
       <body className={`${inter.className} dark:bg-gray-950 dark:text-[#fff] scroll-smooth`}>
-        <div className="container mx-auto px-4 ">
-        <Header />
-        {children}
-        <ScrollToTop />
+        <div>
+          <Header />
+          <div className="container mx-auto px-4 ">
+            {children}
+            <ScrollToTop />
+          </div>
         </div>
-        </body>
+      </body>
     </html>
   );
 }

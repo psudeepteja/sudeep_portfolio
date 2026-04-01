@@ -1,10 +1,4 @@
-"use client"
-import { data } from "@/constant/text";
-// import { useTranslation } from "react-i18next";
-// import Image from "next/image";
-
 export default function About() {
-    // const { t } = useTranslation();
     return (
         <div className="px-4 py-6 md:px-4 md:py-16 ">
             <div className='text-center '>
@@ -15,7 +9,6 @@ export default function About() {
                     <img src='/sudeep_3.jpeg' height="240" width="340" alt="image" />
                 </div>
                 <div className="text-center">
-                    {/* <p>{t("aboutMeText1")}</p> */}
                     <p>I am a web developer with a passion for creating responsive and user-friendly websites and web applications. I specialize in using modern technologies like React, Next.js, and Tailwind CSS to bring ideas to life on the web.</p>
                     <br />
                     <p>I prioritize user experience, ensuring websites are intuitive and accessible. Proficient in HTML, CSS, JavaScript, React, Next.js, and Tailwind CSS. Committed to staying up-to-date with the latest industry trends and technologies.</p>

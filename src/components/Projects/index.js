@@ -3,18 +3,16 @@
 import React from "react";
 import Slider from "react-slick";
 import './styles.css'
-// import { useTranslation } from "react-i18next";
 
 export default function Projects() {
   const webPages = [
-    { title: "ShowTime App", url: "https://show-time-app.vercel.app/movies/nellore", img: "/ShowTime.png" },
-    { title: "Russell And Bromley", url: "https://www.russellandbromley.co.uk", img: "/Russell_and_Bromley_UK.png" },
-    { title: "Liverpool Suburbia", url: "https://www.suburbia.com.mx/tienda/home", img: "/Suburbia.jpg" },
-    { title: "ECart App", url: "https://e-cart-app-beige.vercel.app", img: "/ECart1.png" },
-    { title: "Recipie App", url: "https://vgts-task-green.vercel.app", img: "/Recipie.png" },
+    { title: "ShowTime App", url: "https://show-time-app.vercel.app/movies/nellore", img: "/showTime.png" },
+    { title: "Russell And Bromley", url: "https://www.russellandbromley.co.uk", img: "/RandB.png" },
+    { title: "Liverpool Suburbia", url: "https://www.suburbia.com.mx/tienda/home", img: "/subarbia.png" },
+    { title: "ECart App", url: "https://e-cart-app-beige.vercel.app", img: "/ecart.png" },
+    { title: "Recipie App", url: "https://vgts-task-green.vercel.app", img: "/receipie.png" },
     // {title: "Bill Buddy App", url:"https://bill-buddy-app.vercel.app"},
   ]
-  // const {t}= useTranslation();
 
   const settings = {
     infinite: true,
@@ -56,15 +54,15 @@ export default function Projects() {
               href={item.url}
               target="_blank"
               rel="noopener noreferrer"
-              className={`block rounded-xl shadow-md inset-shadow-[#FF6464] hover:shadow-lg transition-transform transform hover:scale-105 overflow-hidden border dark:border-gray-900 ${index % 2 === 0 ? 'bg-gray-50 dark:bg-gray-900' : ""}`}
+              className={`block rounded-xl shadow-md inset-shadow-[#FF6464] hover:shadow-lg transition-transform transform hover:scale-105 overflow-hidden border dark:border-gray-900 : ""}`}
             >
-              {/* <img
-              src={item.img}
-              alt={item.title}
-              className="w-full h-24 object-cover"
-            /> */}
-              <div className="p-4 text-center">
-                <h3 className="text-lg font-semibold">{item.title}</h3>
+              <div className="p-8 flex flex-col items-center justify-center h-32">
+                <img
+                  src={item.img}
+                  alt={item.title}
+                  className="max-h-full max-w-full object-contain"
+                />
+                <h3 className="font-bold">{item.title}</h3>
               </div>
             </a>
           ))}

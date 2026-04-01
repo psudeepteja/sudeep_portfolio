@@ -1,10 +1,6 @@
-"use client"
 import { skills } from '@/constant/skills'
-// import { useTranslation } from 'react-i18next';
-// import Image from 'next/image'
 
 export default function Skills() {
-// const { t } = useTranslation();
     
     return (
         <div className="px-4 py-6 md:px-4 md:py-6">
@@ -21,7 +17,6 @@ export default function Skills() {
             <div className='grid grid-cols-3 md:grid-cols-6 justify-center gap-8'>
                 {skills.map((item) => (
                     <div key={item.id} >
-                        {/* <Image src={item?.icon} alt={item.name} width={64} height={64} /> */}
                         <div className='flex justify-center'>{item.icon}</div>
                         <p className='text-xs text-center'>{item.name}</p>
                     </div>

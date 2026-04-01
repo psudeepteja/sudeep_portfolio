@@ -1,12 +1,7 @@
-"use client"
-import Image from "next/image";
-import { data } from '@/constant/text'
 import { MaterialSymbolsLocationOn } from "@/icons/Location";
 import { PhDotFill } from "@/icons/dot";
-// import { useTranslation } from "react-i18next";
 
 export default function Hero() {
-    // const { t } = useTranslation();
 
     return (
         <div className="px-4 py-6 flex flex-col md:flex-row-reverse gap-8 md:items-center">
