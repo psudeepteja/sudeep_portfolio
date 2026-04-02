@@ -36,8 +36,8 @@ export default function Theme() {
       <img
         src={theme === 'light' ? '/dark.png' : '/light.png'}
         alt="theme"
-        height="28px"
-        width="28px"
+        height="24px"
+        width="24px"
         style={{maxWidth:"none"}}
         onClick={toggleTheme}
       />
