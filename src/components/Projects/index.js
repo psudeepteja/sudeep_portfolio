@@ -15,7 +15,7 @@ export default function Projects() {
     { title: "Russell And Bromley", url: "https://www.russellandbromley.co.uk", icon: <RussellBromleyIcon /> },
     { title: "Liverpool Suburbia", url: "https://www.suburbia.com.mx/tienda/home", icon: <LiverpoolSuburbiaIcon /> },
     { title: "ECart App", url: "https://e-cart-app-beige.vercel.app", icon: <ECartIcon /> },
-    { title: "Recipie App", url: "https://vgts-task-green.vercel.app", icon: <RecipeIcon /> },
+    //{ title: "Recipie App", url: "https://vgts-task-green.vercel.app", icon: <RecipeIcon /> },
     // {title: "Bill Buddy App", url:"https://bill-buddy-app.vercel.app"},
   ]
 
