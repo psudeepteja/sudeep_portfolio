@@ -11,7 +11,6 @@ import { ECartIcon } from "@/icons/ECart";
 
 export default function Projects() {
   const webPages = [
-    { title: "ShowTime App", url: "https://show-time-app.vercel.app/movies/nellore", icon: <ShowTimeIcon /> },
     { title: "Russell And Bromley", url: "https://www.russellandbromley.co.uk", icon: <RussellBromleyIcon /> },
     { title: "Liverpool Suburbia", url: "https://www.suburbia.com.mx/tienda/home", icon: <LiverpoolSuburbiaIcon /> },
     {
@@ -22,6 +21,7 @@ export default function Projects() {
         </div>
       )
     },
+    { title: "ShowTime App", url: "https://show-time-app.vercel.app/movies/nellore", icon: <ShowTimeIcon /> },
     //{ title: "Recipie App", url: "https://vgts-task-green.vercel.app", icon: <RecipeIcon /> },
     // {title: "Bill Buddy App", url:"https://bill-buddy-app.vercel.app"},
   ]
